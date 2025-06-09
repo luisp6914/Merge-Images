@@ -115,7 +115,8 @@ function displayMergedImage(canvas){
     outPutDiv.appendChild(outPutH2);
     outPutDiv.appendChild(canvas);
 
-    document.body.appendChild(outPutDiv)
+    const main = document.querySelector(".main");
+    main.appendChild(outPutDiv);
 
 }
 
