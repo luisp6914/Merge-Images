@@ -77,16 +77,39 @@ canvas {
     background-color: #fff;
 }
 
+.return-btn{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    border: 1px solid transparent;
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: #0d6efd;
+    border-radius: 20px;
+    
+}
+
+a:hover{
+    background-color: #0260ed;
+}
+
 @media (max-width: 768px){
     .container{
         flex-direction: column;
         align-items: center;
-        gap: 0;
-        margin-top: 0;
+        padding: 0;
+        margin: 0px 2rem 2rem 2rem;
     }
 
     #drop-area-1, #drop-area-2, canvas {
-    width: 100%; 
-    max-width: 500px; 
-  }
+        width: 100%; 
+        max-width: 500px; 
+        padding: 0;
+    }
+
 }
